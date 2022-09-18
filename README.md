@@ -20,3 +20,11 @@ MIDI footswitch for switching between QC scenes.
 ![layout](qc-footswitch_bb.png)
 
 
+## build jig
+
+Since there are a million wires to connect it's easier to build outside of the enclosure.
+
+![jig](build-jig.jpg)
+
+![wired](in-enclosure.jpg)
+
