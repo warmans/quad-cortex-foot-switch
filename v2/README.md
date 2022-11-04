@@ -2,7 +2,7 @@
 
 MIDI footswitch for switching between QC scenes.
 
-![complete pedal]([https://i.imgur.com/XSDIxON.jpeg)
+![complete pedal](https://i.imgur.com/XSDIxON.jpeg)
 
 More pictures: https://imgur.com/a/Fm4U8BB
 
@@ -19,17 +19,11 @@ More pictures: https://imgur.com/a/Fm4U8BB
 9. 2mm aluminium sheet for top/bottom 
 10. M3 threaded inserts and bolts.
 
-## MIDI DIN output wiring
+## PCB
 
-```
-1 -
-2 GND
-3 -
-4 DATA
-5 5v (requires 220ohm resistor)
-```
+See the [gerber files](qc-footswitch-v2-scm v55_2022-10-26-gerber.zip)
 
-![din wiring](din.webp)
+Can be manufactured by e.g. JLCPCB for ~£10.
 
 ## Arduino Code
 
@@ -55,3 +49,15 @@ The board layout has a mistake where the power/midi headers interfere with the a
 
 To work around this I used sockets for the arduino pins which raise the arduino USB socket up to clear the headers. However right angle headers would probably work 
 too.
+
+## MIDI DIN output wiring
+
+```
+1 -
+2 GND
+3 -
+4 DATA
+5 5v (requires 220ohm resistor)
+```
+
+![din wiring](din.webp)
