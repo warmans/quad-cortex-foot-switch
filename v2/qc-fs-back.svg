@@ -22,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -39,9 +39,9 @@
      inkscape:window-height="1377"
      id="namedview54"
      showgrid="false"
-     inkscape:zoom="1.0543401"
-     inkscape:cx="396.8504"
-     inkscape:cy="561.25983"
+     inkscape:zoom="0.61896328"
+     inkscape:cx="43.679324"
+     inkscape:cy="524.86848"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -193,5 +193,26 @@
        id="MassCenter_path26"
        d="m 148.87818,989.0781 h 3 3 m -3,-3 v 3 3"
        style="fill:none;stroke:#000000;stroke-width:0.5" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none"
+       x="343.31601"
+       y="75.933426"
+       id="text871"><tspan
+         sodipodi:role="line"
+         id="tspan869"
+         x="343.31601"
+         y="75.933426">146.5mm</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none"
+       x="513.4649"
+       y="-694.84528"
+       id="text875"
+       transform="rotate(90)"><tspan
+         sodipodi:role="line"
+         id="tspan873"
+         x="513.4649"
+         y="-694.84528">246mm</tspan></text>
   </g>
 </svg>
