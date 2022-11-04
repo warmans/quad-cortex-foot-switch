@@ -21,7 +21,7 @@ More pictures: https://imgur.com/a/Fm4U8BB
 
 ## PCB
 
-See the [gerber files](qc-footswitch-v2-scm v55_2022-10-26-gerber.zip)
+See the gerber files: qc-footswitch-v2-scm v55_2022-10-26-gerber.zip
 
 Can be manufactured by e.g. JLCPCB for ~£10.
 
