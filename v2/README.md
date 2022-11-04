@@ -16,6 +16,8 @@ More pictures: https://imgur.com/a/Fm4U8BB
 6. 1x 220ohm resistor for MIDI socket.
 7. 8x 8mm LEDs
 8. B3B-XH-A, B2B-XH-A headers (ideally right angle due to the awkward arduno USB position)
+9. 2mm aluminium sheet for top/bottom 
+10. M3 threaded inserts and bolts.
 
 ## MIDI DIN output wiring
 
@@ -37,10 +39,11 @@ The [arduino sketch](qcfs_v2_arduino/qcfs_v2_arduino.ino) is included. It's extr
 
 See: 
 
-1. [qc-fs-front.svg](qc-fs-front.svg) - Template for drilling/bending the top of the enclosure. There are too many screw holes. My advice would be to only to the highest and lowest holes rather than all 5.
+1. [qc-fs-front.svg](qc-fs-front.svg) - Template for drilling/bending the top of the enclosure. There are too many screw holes. My advice would be 
+   to only to the highest and lowest holes rather than all 5.
 2. [qc-fs-back.svg](qc-fs-back.svg) - Template for the back of the pedal. This doesn't have holes defined for the MIDI/USB connectors. Just put them wherever you want.
 
-## Enclosure Sides
+## 3d printable enclosure Sides
 
 The .stl for the sides is included. Just mirror it for the opposite side.
 
@@ -48,7 +51,7 @@ File: enclosure-left-twopart.stl
 
 ## Connector Placement Issue 
 
-The baoard layout has a mistake where the power/midi headers interfere with the arduino USB connector if the arduino is connected directly to the board. 
+The board layout has a mistake where the power/midi headers interfere with the arduino USB connector if the arduino is connected directly to the board. 
 
 To work around this I used sockets for the arduino pins which raise the arduino USB socket up to clear the headers. However right angle headers would probably work 
 too.
